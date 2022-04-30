@@ -1,12 +1,5 @@
 # https
 
-3. http와 https의 프로토콜의 차이점
-4. 보안 수준이 높아지면 일반적으로 전송 속도가 느려진다. https 프로토콜에서는 이를 어떻게 극복하고 있는가?
-5. https 동작 원리 (sever hello 세 가지 정보)
-6. 사용자 입장에서 생각했을 때 어떤 프로토콜을 사용하는 것이 좋을까?
-    1. 왜?
-    2. https는 보안 문제를 어떻게 해결하고 있나?
-
 ## https란?
 
 hypertext transfer protocol secure의 약자로, 사용자 컴퓨터와 방문한 사이트 간에 전송되는 사용자 데이터의 무결성과 기밀성을 유지할 수 있도록 해주는 인터넷 통신 프로토콜입니다.
@@ -61,3 +54,9 @@ handshake 과정을 통해 만든 대칭키를 이용하여 데이터의 전송�
 ### session 종료
 
 데이터 교환이 끝나면, 세션이 종료되고 사용되었던 대칭키는 폐기합니다.
+
+# 출처
+
+[[네트워크] HTTPS (개념, SSL/TLS 암호화 과정, 장단점) (tistory.com)](https://eun-jeong.tistory.com/27)
+[HTTPS와 SSL 인증서, SSL 동작방법 · 초보몽키의 개발공부로그 (wayhome25.github.io)](https://wayhome25.github.io/cs/2018/03/11/ssl-https/)
+[HTTP 프로토콜 발전 (velog.io)](https://velog.io/@gjrjr4545/HTTP-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-%EB%B0%9C%EC%A0%84)
