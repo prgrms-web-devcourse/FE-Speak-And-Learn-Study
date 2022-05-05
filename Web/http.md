@@ -67,10 +67,11 @@ http헤더에 `{ Connection: Keep-alive }` 옵션을 부여하면, 일정 시간
 - PUT(Update): 서버의 body에 수정할 데이터를 포함하여 함께 전송
 - DELETE(Delete): 서버에 삭제할 리소스를 요청
 - PATCH: PUT과 비슷하지만, 데이터의 일부만 수정하도록 할 수 있음
-- HEAD
-- OPTION
-- TRACE
-- CONNECT
+- HEAD : GET과 같이 작용하지만, 메세지의 바디는 받지 않습니다.(URI 유효성확인, 리소스 갱신 시간 확인 용도 사용)
+- OPTIONS:  서버에서 사용가능한 메소드를 확인하기 위한 메서드
+- TRACE:  통신 경로를 받기 위해 사용할 수 있지만, 실제 사용빈도가 매우 낮으며, 보안상 이슈도 존재한다.
+- CONNECT: 프록시에 접속 확립을 요구함으로써, TCP 통신의 터널링을 위해 사용
+
 
 **GET, POST, PUT, DELETE** 메소드를 묶어 CRUD를 구성할 수 있습니다.
 ## HTTP status code
