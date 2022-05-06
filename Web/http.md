@@ -72,7 +72,23 @@ http헤더에 `{ Connection: Keep-alive }` 옵션을 부여하면, 일정 시간
 - TRACE:  통신 경로를 받기 위해 사용할 수 있지만, 실제 사용빈도가 매우 낮으며, 보안상 이슈도 존재한다.
 - CONNECT: 프록시에 접속 확립을 요구함으로써, TCP 통신의 터널링을 위해 사용
 
-
+##  http Status
+- 200 (Success)
+    204: No Content
+      요청은 성공했는데, 돌려줄 resourse는 없을 때
+- 300 (redirect) 
+    301: 검색엔진에 해당 컨텐츠의 URL이 영구적으로 변경되었음을 알림
+    302: 검색엔진에 해당 컨텐츠의 URL이 임시적으로 변경되었을을 알림
+- 400 (Client Error)
+    401: Unauthorized 
+      client 인증에 실패함
+    403: Forbidden
+      접근이 거부됨을 알림
+    404: Not Found
+      해당 요청에 대한 resourse가 없음을 알림
+- 500 (Server Error)
+    503: Unavailavle
+      현재 과부화 혹은 점검 중으로 사용불가함을 알림
 **GET, POST, PUT, DELETE** 메소드를 묶어 CRUD를 구성할 수 있습니다.
 ## HTTP status code
 HTTP 요청이 성공했는지 실패했는지를 서버에서 알려주는 코드이다.
