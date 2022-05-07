@@ -42,6 +42,8 @@
 - GraphQL은 요청할 때 사용한 Query문에 따라 응답의 구조가 달라집니다.
 - GraphQL은 원하는 정보대로 요청하는 것이 가능하지만 REST API는 응답의 형태가 정해져있고, 필요한 부분만 요청하는 것이 힘듭니다.
 - RESTApi의 경우, 헤더에 다양한 Content-type을 사용하여 여러 형식의 데이터를 전송할 수 있으나, GraphQL은 Content-type이 applicaiton/json으로 제한되어 있어 파일 전송에 어려움이 있다.
+- GraphQL은 `과도한 데이터 요청(over-fetching)` 방지할 수 있는 반면, RESTApi의 경우 데이터를 취사선택 할 수 없다는 문제가 있다.
+- GraphQL은 `부족한 데이터 요청(under-fetching`) 방지할 수 있지만, RESTApi의 경우 하나의 페이지에서 여러번 API 요청할 수 있다.
 
 - [RESTful API 이란](https://velog.io/@somday/RESTful-API-%EC%9D%B4%EB%9E%80)
 - [REST API vs GraphQL 차이점 알아보기](https://velog.io/@djaxornwkd12/REST-API-vs-GraphQL-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
