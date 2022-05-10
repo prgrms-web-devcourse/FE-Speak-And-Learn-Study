@@ -80,15 +80,16 @@
 
 ### Javascript
 
-- [비동기](Javascript/비동기.md)
 - [실행 컨텍스트](Javascript/실행컨텍스트.md)
 - [클로저](Javascript/클로저.md)
 - [this](Javascript/this.md)
+- [비동기](Javascript/비동기.md)
 - [이벤트전파와 위임](Javascript/이벤트전파와위임.md)
 
 ### Web
 
+- [브라우저 렌더링](Web/브라우저렌더링.md)
 - [브라우저 저장소](Web/브라우저저장소.md)
 - [http](Web/http.md)
 - [https](Web/https.md)
-- [REST](Web/Rest.md)
+- [REST](Web/REST.md)
