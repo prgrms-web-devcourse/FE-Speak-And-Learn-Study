@@ -80,7 +80,6 @@
 
 #### Ref
 
-- [말하면서 배워요 스터디](https://github.com/prgrms-web-devcourse/FE-Speak-And-Learn-Study)
 - [[10분 테코톡] 🍻주모의 SPA](https://www.youtube.com/watch?v=vM_zQLnlyKw&t=22s)
 - [[10분 테코톡] 🎨 신세한탄의 CSR&SSR](https://www.youtube.com/watch?v=YuqB8D6eCKE)
 - [SPA기반 웹사이트의 SEO](https://www.ascentkorea.com/seo-for-spa/)
