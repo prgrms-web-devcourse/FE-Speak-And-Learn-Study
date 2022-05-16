@@ -36,7 +36,7 @@
 1. SEO에 불리 : 자바스크립트를 사용하여 사용자와 상호작용 후에 페이지를 로드함 -> 웹 크롤러가 페이지를 색인화하려고 하면 빈 페이지를 보이게 함
 2. 느린 초기 로딩 속도 : 초기에 모든 JS 파일을 다운받아야함
 
-### 3. SSR과 CSR을 중심으로, 렌더링 관점에서의 흐름 변화를 말해주세요.
+### 3. SSR과 CSR의 동작과정를 말해주세요.
 
 **SSR**
 
@@ -72,9 +72,43 @@
 
 3. 초기 로딩 속도 보완 & SEO 개선
 
-- CSR을 사용하고 있는 SPA나 SSR이나 SSG를 도입하면 된다.
+- CSR을 사용하고 있는 SPA에 SSR이나 SSG를 도입하면 된다.
 
-### 6. SEO는 무엇인가요?
+### 6. SSR과 CSR을 중심으로, 렌더링 관점에서의 흐름 변화를 말해주세요.(최근 추세)
+
+**XMLHttpRequest(1998)**
+
+- fetch API의 원조인 XMLHttpRequest API가 개발 되었다.
+- html 문서 전체가 아니라 JSON과 같은 포맷으로 서버에서 필요한 데이터만 받아올 수 있게 되었고
+- 이 데이터를 JavaScript를 이용해서 동적으로 HTML 요소를 생성해서 페이지에 업데이트 하는 방식이다.
+
+**AJAX(2005)**
+
+- XMLHttpRequest 를 이용하는 방식이 공식적으로 AJAX라는 이름을 가지게 되었다.
+- 구글에서도 AJAX를 이용해서 Gmail, Google Maps과 같은 웹 어플리케이션을 만들기 시작했고 이것이 현재 널리 쓰이는 SPA이다.
+
+**CSR**
+
+- 기존에는 Server에서 받은 html을 바탕으로 Client가 화면을 그렸지만, CSR 방식은 서버에서 받는 게 아니라 Client에서 알아서 화면을 그리는 방식이다. React나 Vue 같은 라이브러리/프레임워크는 SPA를 만드는 것을 지원하고 CSR 방식으로 동작한다.
+- CSR의 단점들 때문에 1990년 중반에 사용했던 Static Sites에서 영감을 받은 SSR이 도입되게 된다.
+
+**SSR**
+
+- CSR을 사용했을 때보다 첫 페이지 로딩이 빨라진다.
+- 모든 내용이 html에 담겨져있기 때문에 효율적인 SEO 대응이 가능하다.
+- Static Sites에서 발생했던 깜빡임 이슈(SSR단점) + CSR 단점 등으로 인해 CSR + SSR 방식이 도입됨.
+
+**CSR + SSR**
+
+- 사용자가 처음 들어왔을 때의 페이지는 서버에서 받아 렌더링하고(SSR) 그 뒤에 발생하는 라우팅은 CSR로 하는 방식이다.
+- 첫 진입 이후에는 CSR 방식으로 동작하도록 하면 사용자가 url을 이용해도 페이지 깜빡임 없이 사용할 수 있게 된다.
+
+**SSG(Static Site Generation)**
+
+- 정적인 웹사이트를 생성해주는 툴인데 일반적으로 마크다운 파일을 읽어 HTML을 생성하는 기능을 가진다.
+- React의 경우는 CSR에 특화된 라이브러리이지만 Gatsby 라이브러리와 함께 사용하면 React로 만든 웹 어플리케이션을 정적으로 웹 페이지 생성을 미리 해두어서 서버에 배포해놓을 수 있다.
+
+### 7. SEO는 무엇인가요?
 
 검색엔진이 웹을 크롤링(자동으로 웹 사이트에 엑세스하여 데이터를 얻는 과정)하면서 페이지에 컨텐츠 색인을 생성하는 과정이다.
 
@@ -83,3 +117,4 @@
 - [[10분 테코톡] 🍻주모의 SPA](https://www.youtube.com/watch?v=vM_zQLnlyKw&t=22s)
 - [[10분 테코톡] 🎨 신세한탄의 CSR&SSR](https://www.youtube.com/watch?v=YuqB8D6eCKE)
 - [SPA기반 웹사이트의 SEO](https://www.ascentkorea.com/seo-for-spa/)
+- [[WEB] Client Side Rendering과 Server Side Rendering](https://jess2.xyz/web/csr-ssr/)
