@@ -92,4 +92,4 @@
 - [브라우저 저장소](Web/브라우저저장소.md)
 - [http](Web/http.md)
 - [https](Web/https.md)
-- [REST](Web/REST.md)
+- [REST](Web/Rest.md)
