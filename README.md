@@ -19,6 +19,9 @@
     <td align="center">
       <img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" alt="황수경"/>
     </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/u/39076382?v=4" width="100px;" alt="김창민"/>
+    </td>
   </tr>
   <tr>    
     <td align="center">
@@ -39,6 +42,11 @@
     <td align="center">
       <a href="https://github.com/sukyeongh">
         <div>황수경</div>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/chmini">
+        <div>김창민</div>
       </a>
     </td>
   </tr>
