@@ -81,41 +81,38 @@
 
 ## 📚 스터디 주제
 
-### CS
+### 🗣 CS
 
-##### [스택과 큐](CS/스택과큐/스택과큐.md)
+#### [스택과 큐](CS/스택과큐)
 
-##### [해시테이블](CS/해시테이블/해시테이블.md)
+#### [해시테이블](CS/해시테이블)
 
-##### [정렬](CS/정렬/정렬.md)
+#### [정렬](CS/정렬)
 
-##### [정렬(심화)](<CS/정렬/정렬(심화).md>)
+#### [정렬(심화)](CS/정렬)
 
-### Javascript
+### 🗣 Javascript
 
-##### [실행 컨텍스트](Javascript/실행컨텍스트/실행컨텍스트.md)
+#### [실행 컨텍스트](Javascript/실행컨텍스트)
 
-##### [클로저](Javascript/클로저/클로저.md)
+#### [클로저](Javascript/클로저)
 
-##### [this](Javascript/this/this.md)
+#### [this](Javascript/this)
 
-##### [비동기](Javascript/비동기/비동기.md)
+#### [비동기](Javascript/비동기)
 
-- [수경](Javascript/비동기/수경_비동기.md)
-- [인수](Javascript/비동기/인수_비동기.md)
+#### [이벤트전파와 위임](Javascript/이벤트전파와위임)
 
-##### [이벤트전파와 위임](Javascript/이벤트전파와위임/이벤트전파와위임.md)
+### 🗣 Web
 
-### Web
+#### [브라우저 렌더링](Web/브라우저렌더링)
 
-##### [브라우저 렌더링](Web/브라우저렌더링/브라우저렌더링.md)
+#### [브라우저 저장소](Web/브라우저저장소)
 
-##### [브라우저 저장소](Web/브라우저저장소/브라우저저장소.md)
+#### [http](Web/http)
 
-##### [http](Web/http/http.md)
+#### [https](Web/https)
 
-##### [https](Web/https/https.md)
+#### [REST](Web/Rest)
 
-##### [REST](Web/Rest/Rest.md)
-
-##### [CSRvsSSR](Web/CSRvsSSR/CSRvsSSR.md)
+#### [CSRvsSSR](Web/CSRvsSSR)
