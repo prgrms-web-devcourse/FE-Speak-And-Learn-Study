@@ -83,24 +83,24 @@
 
 ### CS
 
-- [스택과 큐](CS/스택과큐.md)
-- [해시테이블](CS/해시테이블.md)
-- [정렬](CS/정렬.md)
-- [정렬(심화)](<CS/정렬(심화).md>)
+- [스택과 큐](CS/스택과큐/스택과큐.md)
+- [해시테이블](CS/해시테이블/해시테이블.md)
+- [정렬](CS/정렬/정렬.md)
+- [정렬(심화)](<CS/정렬/정렬(심화).md>)
 
 ### Javascript
 
-- [실행 컨텍스트](Javascript/실행컨텍스트.md)
-- [클로저](Javascript/클로저.md)
-- [this](Javascript/this.md)
-- [비동기](Javascript/비동기.md)
-- [이벤트전파와 위임](Javascript/이벤트전파와위임.md)
+- [실행 컨텍스트](Javascript/실행컨텍스트/실행컨텍스트.md)
+- [클로저](Javascript/클로저/클로저.md)
+- [this](Javascript/this/this.md)
+- [비동기](Javascript/비동기/비동기.md)
+- [이벤트전파와 위임](Javascript/이벤트전파와위임/이벤트전파와위임.md)
 
 ### Web
 
-- [브라우저 렌더링](Web/브라우저렌더링.md)
-- [브라우저 저장소](Web/브라우저저장소.md)
-- [http](Web/http.md)
-- [https](Web/https.md)
-- [REST](Web/Rest.md)
-- [CSRvsSSR](Web/CSRvsSSR.md)
+- [브라우저 렌더링](Web/브라우저렌더링/브라우저렌더링.md)
+- [브라우저 저장소](Web/브라우저저장소/브라우저저장소.md)
+- [http](Web/http/http.md)
+- [https](Web/https/https.md)
+- [REST](Web/Rest/Rest.md)
+- [CSRvsSSR](Web/CSRvsSSR/CSRvsSSR.md)
